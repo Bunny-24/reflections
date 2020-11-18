@@ -38,7 +38,7 @@ What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
 pros of automatic merging -
-    you don't have to take headec when there is conflict b/w files but 
+    you don't have to take headache when there is conflict b/w files but 
     this kind of merging require sophisticated machine learning.
 pros of always donig merges manually -
     by manually merges you can choose which part of code you want to put after merging if 
