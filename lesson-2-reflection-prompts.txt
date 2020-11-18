@@ -6,16 +6,48 @@ you need to do that because by initializing a git repository git is able to trac
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+staging area is a area where you put files before you make a commit.
+working area contain files that are untrack and repository contain files that are committed.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+git allows to you more control how you commit by the help of staging area.
+you can choose what files you need to track while making commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+branches would be helpful when you want to add some experimental feature in you program and
+you don't know that it will work or not so you create some experimental branch and add those 
+experimental feature in this way it will not affect you master branch.
+
 How do the diagrams help you visualize the branch structure?
+
+By using diagrams we can see how git branch system work. We can visualize 
+those branch using diagram how they are related.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+by merging two branch we joins both brach and their commit in timely order.
+we represent diagram the way we do so we can understand which commit belong to which branch.
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+pros of automatic merging -
+    you don't have to take headec when there is conflict b/w files but 
+    this kind of merging require sophisticated machine learning.
+pros of always donig merges manually -
+    by manually merges you can choose which part of code you want to put after merging if 
+    there is some conflict occur. you can choose more memory efficent code which is fast to run
+    and make your code more efficent.
+
+cons of automatic merging-
+    git is not advance enough to merge file when there is conflict.
+
+cons of manually merging -
+    it take time to merge two branch when there is conflict.
+    
